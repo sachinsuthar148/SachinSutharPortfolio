@@ -210,27 +210,35 @@ function App() {
       <br />
       <br />
       <div className="projects">
-      <div className="project-box">
+      <a className='link project-box' href="#">
+      <div>
             <img src={vidhyaghar} alt="vidhyaghar image"/>
             <br/>
           
             <h2>VidhyaGhar</h2>
             <p>Website for School Management System</p>
       </div>
-      <div className="project-box">
+      </a>
+      <a className='link project-box' href="https://github.com/sachinsuthar148/Vaccination-Registration-System">
+      <div >
             <img id="vaccination" src={vaccination} alt=" vaccination image"/>
             <br/><br/>
-            <h2>Vaccination Registration System</h2>
+             <h2>Vaccination Registration System</h2>
             <p>Website for Vaccination Registration</p>
       </div>
-      <div className="project-box">
+      </a>
+
+      <a className='link project-box' href="https://github.com/sachinsuthar148/hempal/deployments/github-pages">
+      <div>
             <img src={hempal} alt="hempal image"/>
             <br/>
             <h2>Hempal Studio</h2>
           
             <p>Web pages for Home Designer Website</p>
       </div>
-      <div className="project-box">
+      </a>
+      <a className='link project-box' href="https://sachinsuthar148.github.io/Proflammingo/">
+      <div>
         <br/><br/>
             <img id="flammingo" src={proflammingoImg} alt="flammingo image"/>
             <br/>
@@ -238,7 +246,10 @@ function App() {
             <h2>Progammingo</h2>
             <p>Website for Course Management System</p>
       </div>
-      <div className="project-box">
+      </a>
+      <a className='link project-box' href="#">
+
+      <div >
  
         <br/>
         <img id="flammingo" src={iot} alt="iot"/>
@@ -246,8 +257,8 @@ function App() {
         
         <h2>Home Automation using IoT</h2>
         <p>Home Automation Project Using IoT</p>
-      </div>
-     
+      </div >
+     </a>
     </div>
     </section>
   
