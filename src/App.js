@@ -52,7 +52,8 @@ function App() {
      <nav className="navbar navbar-expand-lg">
       <div className="container-fluid">
         <button
-          className="navbar-toggler"
+          className="navbar-toggler "
+          id="nav-toggle-button"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarNav"
@@ -118,23 +119,23 @@ function App() {
           <span>Sachin Suthar</span>
         </div>
         <div>
-          <span id="name">Date of Birth : </span> &nbsp
+          <span id="name">Date of Birth : </span> &nbsp;
           <span>10-Novemeber-2002</span>
         </div>
         <div>
-          <span id="name">Nationality :</span> &nbsp <span>Indian</span>
+          <span id="name">Nationality :</span> &nbsp; <span>Indian</span>
         </div>
         <div>
-          <span id="name"> Address : &nbsp </span
+          <span id="name"> Address : &nbsp; </span
           ><span>At post sikwara,Jalore(Raj.)</span>
         </div>
         <div>
-          <span id="name"> E-mail : &nbsp </span
+          <span id="name"> E-mail : &nbsp; </span
           ><span> mistrysachin185@gmail.com</span>
         </div>
         <div>
-          <span id="name"> Mobile No: &nbsp</span>
-          <span>+91 &nbsp 9116525110 </span>
+          <span id="name"> Mobile No: &nbsp;</span>
+          <span>+91 &nbsp; 9116525110 </span>
         </div>
       </div>
     </section>
@@ -152,7 +153,7 @@ function App() {
           <h3>React JS</h3>
         </div>
         <div className="skills">
-          <img src={ReactImg} alt="" />
+          <img src={nodeimg} alt="" />
           <h3>NodeJS</h3>
         </div>
         <div className="skills">

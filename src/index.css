@@ -61,6 +61,16 @@ section {
 }
 
 
+#nav-toggle-button {
+    border-color: white !important;
+
+}
+
+.navbar-toggler-icon{
+    color:white !important;
+}
+
+
 /* coding for section main  */
 .first_box {
     height: 100vh;
