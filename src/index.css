@@ -91,7 +91,7 @@ section {
 
 .sub_first_box img {
     width: 35rem;
-}
+    filter: drop-shadow(2px 7px 10px rgb(255, 255, 255));}
 
 #first {
     margin: 3rem;
@@ -121,6 +121,11 @@ section {
 #about {
     text-align: center;
     font-size: 1.5rem;
+}
+
+.logos{
+    height: 40px;
+    width: 40px;
 }
 
 /* skills section  */
