@@ -1,310 +1,372 @@
   /* CSS styles */
   body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    background-color: black;
-    padding: 0;
-    color: white;
-    font-family: "Freeman", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: black;
+      padding: 0;
+      color: white;
+      font-family: "Freeman", sans-serif;
+      font-weight: 400;
+      font-style: normal;
 
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-}
-
-section {
-    padding: 20px;
-}
+      scroll-behavior: smooth;
+  }
 
 
 
-.container {
-    max-width: 800px;
-    margin: auto;
-}
+  header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+  }
 
-.contact-form input[type="text"],input[type="email"],
-.contact-form textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-sizing: border-box;
-}
+  section {
+      padding: 20px;
+  }
 
-.contact-form textarea {
-    height: 100px;
-}
+  @keyframes appear {
+      from {
+          opacity: 0;
+          transform: translateY(100px);
+      }
 
+      to {
+          opacity: 1;
+          transform: translateY(0);
+      }
+  }
 
+  @keyframes effect {
+      from {
+          opacity: 0;
+          scale: 0.5;
+      }
 
-.contact-form input[type="submit"]:hover {
-    background-color: #555;
-}
+      to {
+          opacity: 1;
+          scale: 1;
+      }
 
-.white {
-    color: rgb(255, 255, 255) !important;
-}
-
-.navbar-expand {
-    background-color: transparent;
-}
-
-.nav-link:hover{
-  color:  rgb(255, 192, 31) !important;
-}
-
-
-#nav-toggle-button {
-    border-color: white !important;
-
-}
-
-.navbar-toggler-icon{
-    color:white !important;
-}
+  }
 
 
-/* coding for section main  */
-.first_box {
-    height: 100vh;
-    background: url("https://e0.pxfuel.com/wallpapers/655/814/desktop-wallpaper-web-developer-website-thumbnail.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-}
+  .container {
+      max-width: 800px;
+      margin: auto;
+  }
 
-.sub_first_box {
-    font-size: 5rem;
-}
+ 
+  .contact-form input[type="text"],
+  input[type="email"],
+  .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-sizing: border-box;
+  }
 
-.sub_first_box img {
-    width: 35rem;
-    filter: drop-shadow(2px 7px 10px rgb(255, 255, 255));}
-
-#first {
-    margin: 3rem;
-    min-width: 30%;
-}
-
-#second {
-    margin: 1rem;
-}
-
-#name {
-    color: rgb(255, 192, 31);
-}
-
-.heading {
-    border-bottom: 3px solid rgb(255, 192, 31);
-    border-top: 3px dotted rgb(255, 192, 31);
-    width: fit-content;
-    padding: .8rem 5rem;
-    font-size: 1.8rem;
-    border-radius: 50px;
-}
+  .contact-form textarea {
+      height: 100px;
+  }
 
 
-/* about section  */
 
-#about {
-    text-align: center;
-    font-size: 1.5rem;
-}
+  .contact-form input[type="submit"]:hover {
+      background-color: #555;
+  }
 
-.logos{
-    height: 40px;
-    width: 40px;
-}
+  .white {
+      color: rgb(255, 255, 255) !important;
+  }
 
-/* skills section  */
+  .navbar-expand {
+      background-color: transparent;
+  }
 
-.skill .skills-box {
-    margin: 40px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.skill .skills-box .skills {
-    padding: 10px;
-    margin: 10px;
-    text-align: center;
-
-}
-
-.skill .skills-box img {
-    width: 85px;
-    height: 75px;
-}
-
-#java {
-    width: 60px;
-}
-
-.skill .skills-box h3 {
-    color: white;
-}
+  .nav-link:hover {
+      color: rgb(255, 192, 31) !important;
+  }
 
 
-/* project section start  */
+  #nav-toggle-button {
+      border-color: white !important;
 
-.projects {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
+  }
 
-.projects .project-box {
-    width: 300px;
-    height: 350px;
-    /* border: 3px solid white; */
-    margin: 20px 10px;
-    border-radius: 30px;
-    background: rgb(237, 179, 29);
-    background: linear-gradient(rgba(237, 179, 29, 0.8856792717086834) 13%, rgba(0, 0, 0, 0.6867997198879552) 75%);
-    text-align: center;
-    padding: 1%;
+  .navbar-toggler-icon {
+      color: white !important;
+  }
 
-}
 
-/* .projects .project-box h2 {
+  /* coding for section main  */
+  .first_box {
+      height: 100vh;
+      background: url("https://e0.pxfuel.com/wallpapers/655/814/desktop-wallpaper-web-developer-website-thumbnail.jpg");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+
+      animation: appear ease-in-out;
+        animation: effect linear;
+        animation-timeline: view();
+        animation-range: entry 0% cover 40%;
+  }
+
+  .sub_first_box {
+      font-size: 5rem;
+  }
+
+  .sub_first_box img {
+      width: 35rem;
+      filter: drop-shadow(2px 7px 10px rgb(255, 255, 255));
+  }
+
+  #first {
+      margin: 3rem;
+      min-width: 30%;
+  }
+
+  #second {
+      margin: 1rem;
+  }
+
+  #name {
+      color: rgb(255, 192, 31);
+  }
+
+  .heading {
+      border-bottom: 3px solid rgb(255, 192, 31);
+      border-top: 3px dotted rgb(255, 192, 31);
+      width: fit-content;
+      padding: .8rem 5rem;
+      font-size: 1.8rem;
+      border-radius: 50px;
+  }
+
+
+  /* about section  */
+
+  #about {
+      text-align: center;
+      font-size: 1.5rem;
+
+      animation: effect linear;
+      animation-timeline: view();
+      animation-range: entry 10% cover 40%;
+  }
+
+  .logos {
+      height: 40px;
+      width: 40px;
+  }
+
+  /* skills section  */
+
+  .skill .skills-box {
+      margin: 40px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+
+
+      animation: effect linear;
+        animation-timeline: view();
+        animation-range: entry 0% cover 35%;
+  }
+
+  .skill .skills-box .skills {
+      padding: 10px;
+      margin: 10px;
+      text-align: center;
+
+  }
+
+  .skill .skills-box img {
+      width: 85px;
+      height: 75px;
+  }
+
+  #java {
+      width: 60px;
+  }
+
+  .skill .skills-box h3 {
+      color: white;
+  }
+
+
+  /* project section start  */
+
+  .projects {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+
+      animation: effect linear;
+        animation-timeline: view();
+        animation-range: entry 0% cover 35%;
+  }
+
+  .projects .project-box {
+      width: 300px;
+      height: 350px;
+      /* border: 3px solid white; */
+      margin: 20px 10px;
+      border-radius: 30px;
+      background: rgb(237, 179, 29);
+      background: linear-gradient(rgba(237, 179, 29, 0.8856792717086834) 13%, rgba(0, 0, 0, 0.6867997198879552) 75%);
+      text-align: center;
+      padding: 1%;
+
+  }
+
+  /* .projects .project-box h2 {
     color: white;
 } */
 
-.projects .project-box img {
-    width: 15rem;
-}
+  .projects .project-box img {
+      width: 15rem;
+  }
 
-.link{
-    text-decoration: none;
-    color: white;
-}
-.link:hover{
-    color: rgb(237, 179, 29);
-    border: 2px solid white;
-}
+  .link {
+      text-decoration: none;
+      color: white;
+  }
 
-#flammingo,
-#vaccination {
-    width: 11rem;
-}
+  .link:hover {
+      color: rgb(237, 179, 29);
+      border: 2px solid white;
+  }
 
-
-.education .vertical {
-    height: fit-content;
-    width: 4px;
-    /* border: white 1px solid; */
-    background: rgb(237, 179, 29);
-    margin: 30px 30px 30px 35%;
-}
-
-.education .horizontal {
-    width: 6px;
-    height: 2px;
-    background: rgb(237, 179, 29);
-    margin: 123px 0px;
-}
+  #flammingo,
+  #vaccination {
+      width: 11rem;
+  }
 
 
-.education .horizontal img {
-    bottom: 16px;
-    right: 84px;
-    position: relative;
-    height: 40px;
-    width: 40px;
-    margin-left: 66px;
-    border-radius: 50%;
-    border: 3px solid rgb(237, 179, 29);
-}
-
-.education .horizontal .details {
-    color: white;
-    width: 560px;
-    height: fit-content;
-    padding: 0px;
-    position: relative;
-    bottom: 76px;
-    left: 90px;
-}
-
-.education .horizontal .details a {
-    text-decoration: none;
-    color: white;
-}
-
-.education .horizontal .details h2 {
-    color: white;
-    margin: 0px;
-}
-
-.education .horizontal .details p {
-    color: white;
-    margin: 0px;
-}
-#first-horizontal {
-  margin: 60px 0px;
-}
+  .education .vertical {
+      height: fit-content;
+      width: 4px;
+      /* border: white 1px solid; */
+      background: rgb(237, 179, 29);
+      margin: 30px 30px 30px 35%;
 
 
+      animation: effect linear;
+        animation-timeline: view();
+        animation-range: entry 0% cover 40%;
+  }
+
+  .education .horizontal {
+      width: 6px;
+      height: 2px;
+      background: rgb(237, 179, 29);
+      margin: 123px 0px;
+  }
+
+
+  .education .horizontal img {
+      bottom: 16px;
+      right: 84px;
+      position: relative;
+      height: 40px;
+      width: 40px;
+      margin-left: 66px;
+      border-radius: 50%;
+      border: 3px solid rgb(237, 179, 29);
+  }
+
+  .education .horizontal .details {
+      color: white;
+      width: 560px;
+      height: fit-content;
+      padding: 0px;
+      position: relative;
+      bottom: 76px;
+      left: 90px;
+  }
+
+  .education .horizontal .details a {
+      text-decoration: none;
+      color: white;
+  }
+
+  .education .horizontal .details h2 {
+      color: white;
+      margin: 0px;
+  }
+
+  .education .horizontal .details p {
+      color: white;
+      margin: 0px;
+  }
+
+  #first-horizontal {
+      margin: 60px 0px;
+  }
 
 
 
-
-@media screen and (max-width: 480px) {
-
-    .sub_first_box {
-        font-size: 2.5rem;
-        margin: 0;
-    }
-
-    .sub_first_box img {
-        width: 100%;
-    }
-
-    #first {
-        max-height: 60%;
-        margin: 0;
-    }
-
-    #second {
-        margin: 0;
-        min-height: 40%;
-    }
-
-    .skill .skills-box {
-        margin: 1rem;
-    }
-
-    .education .horizontal {
-        margin: 200px 0px;
-    }
+  #contact{
+    
+    animation: effect linear;
+        animation-timeline: view();
+        animation-range: entry 0% cover 30%;
+  }
 
 
-    .education .vertical {
 
-        width: 4px;
-        /* border: white 1px solid; */
-        margin: 30px 30px 30px 3%;
-    }
+  @media screen and (max-width: 480px) {
+
+      .sub_first_box {
+          font-size: 2.5rem;
+          margin: 0;
+      }
+
+      .sub_first_box img {
+          width: 100%;
+      }
+
+      #first {
+          max-height: 60%;
+          margin: 0;
+      }
+
+      #second {
+          margin: 0;
+          min-height: 40%;
+      }
+
+      .skill .skills-box {
+          margin: 1rem;
+      }
+
+      .education .horizontal {
+          margin: 200px 0px;
+      }
 
 
-    .education .horizontal .details {
+      .education .vertical {
 
-        width: 186px;
-        bottom: 76px;
-        left: 90px;
-    }
-}
+          width: 4px;
+          /* border: white 1px solid; */
+          margin: 30px 30px 30px 3%;
+      }
+
+
+      .education .horizontal .details {
+
+          width: 186px;
+          bottom: 76px;
+          left: 90px;
+      }
+  }
